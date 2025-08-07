@@ -1,0 +1,20 @@
+
+.button {
+    border-radius: 20px;
+    background-color: black;
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Kavoon', cursive;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    padding: 10px;
+    outline: none;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+.button:hover {
+    color: black;
+    background-color: #d4d3d3;
+}

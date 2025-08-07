@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  position: relative;
+}
+
+.content-section {
+  padding: 7rem 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.content-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Kavoon', cursive;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.main-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.section-picture {
+    height: 600px;
+    width: 640px;
+}
+
+.tournament-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.tournament-content h2 {   
+    font-family: 'Kavoon', cursive;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.team-section {
+  background-color: white;
+  padding: 4rem 2rem;
+}
+
+.team-container {
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.team-image-wrapper {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.team-image-frame {
+  background-color: black;
+  padding: 1rem;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.team-image-frame img {
+  height: 500px;
+  width: 700px;
+  display: block;
+  border-radius: 10px;
+}
+
+.team-content {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.team-content h2 {
+  font-family: 'Kavoon', cursive;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.team-content p {
+  font-size: 3rem;
+  line-height: 1.6;
+}
+
+.team-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Kavoon', cursive;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: 4px 4px 0 #444;
+  transition: all 0.3s ease;
+  perspective: 1000px; /* important for 3D flip */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.team-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 6px 6px 0 #222;
+}
+
+.About-us h2 {
+    font-family: 'Kavoon', cursive;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.About-us p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    line-height: 1.5;
+}
+
+
+.hero:not(.no-blur)::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: blur(5px);
+  z-index: 1;
+}
+
+.hero-no-blur {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
