@@ -1,0 +1,178 @@
+.collapsible {
+  border-radius: 20px;
+  background: linear-gradient(135deg, #0a3d2e, #1e90ff);
+  color: white;
+  cursor: pointer;
+  padding: 30px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible.league {
+  background: linear-gradient(135deg, #1e90ff, #0a3d2e);
+  color: white;
+}
+
+.collapsible.valorant {
+  background: linear-gradient(135deg, #ff1e35, #000000);
+  color: #ffe8e8;
+
+}
+
+.collapsible.valorant:hover {
+  background: linear-gradient(135deg, #ff334a, #1a1a1a);
+  box-shadow: 0 0 20px rgba(255,30,53,0.5);
+  transform: translateY(-2px)
+}
+
+.collapsible.league:hover {
+  background: linear-gradient(135deg, #3aa3ff, #145a40);
+  box-shadow: 0 0 20px rgba(58, 163, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+.content {
+  max-height: 400px;
+  height: 0px;
+  padding: 0 18px;
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 3rem;
+  transition: height 1s;
+}
+
+.content.league {
+  background: linear-gradient(135deg, #0a1e2f, #102b40); 
+  color: white;
+}
+.content.valorant {
+  background: linear-gradient(135deg, #660000, #400000);
+  color: white;
+}
+
+.tournament-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.head {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.h2 {
+    font-family:'Kavoon', cursive ;
+    font-size: 2rem;
+}
+
+.toggle-butt {
+  margin-left: auto;
+  background: none;
+  border: none;
+  font-size: 18px;
+}
+
+
+.players {
+  margin-right: 4px;
+  display: flex; 
+  flex-wrap: nowrap; /* keeps them on one line */
+  align-items: center;
+
+}
+
+.players img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 1rem;
+}
+
+.social-apps {
+  width: 20px;
+  margin-right: 6px;
+   display: flex;
+  flex-wrap: nowrap; /* keeps them on one line */
+  align-items: center;
+  gap: 10px; /* space between icons */
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+.social-apps img {
+    width: 30px;
+}
+
+.right-info {
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5rem;
+    max-width: 650px;
+}
+
+.card {
+    display: flex;
+    justify-content:space-between;
+}
+
+.head {
+    display: flex;
+    align-items: top;
+    justify-content: flex-start;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.tour {
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    margin-right: 3rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.collapsible.active {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.font {
+    font-family:'Kavoon', cursive ;
+    padding: 1rem;
+}
+.left-info {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.arrow {
+    display: block;
+    font-size: 3rem;
+    margin-top: 5px;
+    transition: transform 0.3s ease;
+    justify-self: center;
+}
+
+.collapsible.active .arrow {
+    transform: rotate(180deg);
+}
+
+.tournament {
+  margin: 100px 20% 100px 20%; 
+}
+
+.icon {
+  height: 20px;
+  margin-right: 10px;
+  filter: brightness(0) invert(1); /* makes black icons white */
+}
+
+.icon-game {
+  height: 20px;
+  margin-right: 10px;
+}
+

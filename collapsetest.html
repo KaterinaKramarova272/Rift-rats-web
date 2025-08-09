@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+<style>
+.collapsible {
+  border-radius: 20px;
+  background-color: #C9C9C9;
+  color: black;
+  cursor: pointer;
+  padding: 30px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #cac8c8;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #C9C9C9;
+  border-radius: 0px 0px 20px 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.tournament-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.head {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.head  h2 {
+    font-family:'Kavoon', cursive ;
+    font-size: 2rem;
+}
+
+.toggle-butt {
+  margin-left: auto;
+  background: none;
+  border: none;
+  font-size: 18px;
+}
+
+
+.players {
+  margin-right: 4px;
+    display: flex; 
+  flex-wrap: nowrap; /* keeps them on one line */
+  align-items: center;
+  gap: 4px; /* space between icons */
+}
+
+.players img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 1rem;
+}
+
+.social-apps {
+  width: 20px;
+  margin-right: 6px;
+   display: flex;
+  flex-wrap: nowrap; /* keeps them on one line */
+  align-items: center;
+  gap: 10px; /* space between icons */
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+.social-apps img {
+    width: 30px;
+}
+
+.right-info {
+    background-color: #C9C9C9;
+    border-radius: 10px;
+    align-self: top ;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5rem;
+    max-width: 1200px;
+}
+
+.card {
+    display: flex;
+    justify-content:space-between;
+}
+
+.head {
+    display: flex;
+    align-items: top;
+    justify-content: flex-start;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.tour {
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    margin-right: 3rem;
+}
+
+.collapsible.active {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.font {
+    font-family:'Kavoon', cursive ;
+    padding: 1rem;
+}
+.left-info {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.arrow {
+    display: block;
+    font-size: 3rem;
+    margin-top: 5px;
+    transition: transform 0.3s ease;
+    justify-self: center;
+}
+
+.collapsible.active .arrow {
+    transform: rotate(180deg); /* Flips up when open */
+}
+</style>
+</head>
+<body>
+
+<h2>Collapsibles</h2>
+<button type="button" class="collapsible">
+    <div class="head">
+        <a href=""><img src="Tournaments/Tournaments-photos/wild-rift-challenger-rank-boost.webp" alt="wadwd" class="tour"></a>
+        <div title>
+            <h2>Rift challengers</h2>
+            <p>League of legends</p>
+        </div>
+    </div>
+            <span class="arrow">v</span>
+</button>
+<div class="content">
+    <div class="card">
+        <div class="left-info"> 
+                <p><span class="font">Teams:</span>8-10</p>
+                <p><span class="font">Draft:</span>Fearless</p>
+                <p><span class="font">Format:</span>Bracket</p>
+                <p><span class="font">Main roaster:</span></p>
+                <div class="players">
+                    <a href=""><img src="Team/Team-photos/Pho3Nix-profile.jpg" alt="awd"></a>
+                    <a href=""><img src="Team/Team-photos/Pho3Nix-profile.jpg" alt="awdaw"></a>
+                    <a href=""><img src="Team/Team-photos/Pho3Nix-profile.jpg" alt="awd"></a>
+                    <a href=""><img src="Team/Team-photos/Pho3Nix-profile.jpg" alt="awd"></a>
+                    <a href=""><img src="Team/Team-photos/Pho3Nix-profile.jpg" alt="awd"></a>
+                </div>
+                <p><span class="font">Substitutes</span></p>
+                <div class="players">
+                    <a href=""><img src="Team/Team-photos/Pho3Nix-profile.jpg" alt="awdsa"></a>
+                    <a href=""><img src="Team/Team-photos/Pho3Nix-profile.jpg" alt="awdsa"></a>
+                </div>
+                <div class="social-apps">
+                    <a href=""><img src="Social-apps-photos/icons8-youtube-50.png" alt="awd"></a>
+                    <a href=""><img src="Social-apps-photos/icons8-twitch-50.png" alt="wda"></a>
+                    <a href=""><img src="Social-apps-photos/icons8-discord-48.png" alt="wads"></a>
+                    <a href=""><img src="Social-apps-photos/icons8-instagram-50.png" alt=""></a>
+                </div>
+            </div>
+            <div class="right-info">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quod in, fuga eligendi nemo delectus eaque eos ullam cum debitis veniam dolor maiores tempora, obcaecati non odit soluta nobis reiciendis.</p>
+            </div>
+        </div>
+              
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

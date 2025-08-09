@@ -1,0 +1,54 @@
+.player-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #000;
+  font-family: Arial, sans-serif;
+}
+
+.card-left, .card-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name-flag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.name-flag h2 {
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.flag {
+  width: 25px;
+  height: auto;
+}
+
+.rank {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.rank-icon {
+  width: 30px;
+}
+
+.champs {
+  display: flex;
+  gap: 6px;
+}
+
+.champs img {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  object-fit: cover;
+}
