@@ -1,54 +1,133 @@
-.player-card {
+.players-cards {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  max-width: 500px;
-  padding: 20px;
-  border: 1px solid #000;
-  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: start;
+  gap: 5rem;
 }
 
-.card-left, .card-right {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.left-cards {
+  gap: 4rem;
 }
 
-.name-flag {
+.player {
   display: flex;
+  border: 5px solid black;
+  gap: 15px;
   align-items: center;
-  gap: 8px;
+  margin-bottom: 7rem;
+  max-height: 200px;
 }
 
-.name-flag h2 {
-  font-family: "Georgia", serif;
+.player:hover {
+  transform: translateY(-2px);
+  
+}
+
+.player.right {
+  padding-left: 100px;
+  align-items: right;
+}
+
+.player.left {
+  padding-right: 100px;
+
+}
+
+.profile img {
+  border-radius: 200px;
+  height: 204px;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+  left: -100px;
+  top: 2px;
+}
+
+.profile-right img {
+    border-radius: 200px;
+  height: 204px;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+  right: -103px;
+  top: 2px;
+}
+.info-right h2,
+.info-left h2 {
+  font-family: 'Kavoon', cursive;
+  gap: 5px;
+}
+
+
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 50px;
+}
+
+.info-left {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  margin: 0;
+  position: relative;
+  left: -100px;
 }
-
-.flag {
-  width: 25px;
-  height: auto;
+.info-right {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: relative;
+  right: -120px;
 }
 
 .rank {
-  display: flex;
-  align-items: center;
-  gap: 6px;
+  height: 60px;
+  width: auto;
+  display: block;
 }
 
-.rank-icon {
-  width: 30px;
+.info-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.info-1 p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.flag {
+  height: 20px;
+  outline: auto;
+  margin-left: 5px;
 }
 
 .champs {
   display: flex;
-  gap: 6px;
+  gap: 15px;
+}
+.champs img {
+  border-radius: 5px;
+  height: 50px;
+} 
+
+.right {
+  text-align: right;
+}
+.label {
+  font-family: 'Kavoon', cursive;
 }
 
-.champs img {
-  width: 32px;
-  height: 32px;
-  border-radius: 4px;
-  object-fit: cover;
+.right-cards {
+  margin-top: 7rem;
+}
+
+.role {
+  height: 40px;
 }

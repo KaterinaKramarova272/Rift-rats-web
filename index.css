@@ -146,6 +146,7 @@ body {
     font-size: 5rem;
     text-align: center;
     margin-bottom: 2rem;
+    padding-top: 5rem;
 }
 .About-us p {
     font-family: Arial, Helvetica, sans-serif;
@@ -153,6 +154,7 @@ body {
     text-align: center;
     padding-left: 15rem;
     padding-right: 15rem;
+    padding-bottom: 10rem;
     line-height: 1.5;
 }
 
