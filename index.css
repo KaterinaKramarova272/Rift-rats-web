@@ -75,7 +75,7 @@ body {
   display: flex;
   gap: 10rem;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   flex-wrap: wrap;
 }
