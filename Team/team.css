@@ -1,3 +1,7 @@
+.main {
+  background-color: #302121;
+  margin: 0;
+}
 .players-cards {
   display: flex;
   justify-content: center;
@@ -16,21 +20,24 @@
   align-items: center;
   margin-bottom: 7rem;
   max-height: 200px;
+  background: rgba(255, 255, 255, 0.05); /* subtle see-through */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px); /* glassmorphism effect */
+  padding: 1rem;
+ 
 }
 
 .player:hover {
   transform: translateY(-2px);
-  
 }
 
 .player.right {
-  padding-left: 100px;
   align-items: right;
 }
 
 .player.left {
   padding-right: 100px;
-
 }
 
 .profile img {
@@ -42,25 +49,28 @@
   position: relative;
   left: -100px;
   top: 2px;
+  border: 5px solid black;
 }
 
 .profile-right img {
-    border-radius: 200px;
+  border-radius: 200px;
   height: 204px;
   object-fit: cover;
   margin-right: 15px;
   cursor: pointer;
   position: relative;
-  right: -103px;
+  right: -110px;
   top: 2px;
+  border: 5px solid black;
 }
+
+
 .info-right h2,
 .info-left h2 {
-  font-family: 'Kavoon', cursive;
+  font-family: "Kavoon", cursive;
   gap: 5px;
+  color: white;
 }
-
-
 
 .info-grid {
   display: grid;
@@ -73,13 +83,15 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   position: relative;
-  left: -100px;
+  left: -75px;
+  color: white;
 }
 .info-right {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   position: relative;
-  right: -120px;
+  right: -75px;
+  color: white;
 }
 
 .rank {
@@ -115,13 +127,14 @@
 .champs img {
   border-radius: 5px;
   height: 50px;
-} 
+  border: 4px solid black;
+}
 
 .right {
   text-align: right;
 }
 .label {
-  font-family: 'Kavoon', cursive;
+  font-family: "Kavoon", cursive;
 }
 
 .right-cards {
@@ -131,3 +144,52 @@
 .role {
   height: 40px;
 }
+
+.ruined-prince {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Team-photos/Players-background/Ruined-prince.webp);
+}
+
+.pho3nix {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Team-photos/Players-background/Pho3Nix-background.webp) center center / cover no-repeat;
+}
+
+.aldra1n {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Team-photos/Players-background/Aldra1n.jpg) center center / cover no-repeat;
+}
+
+.foxsy {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Team-photos/Players-background/Foxsy.jpg) ;
+}
+
+.fuuss {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Team-photos/Players-background/Fuuss.jpg) ;
+}
+.undeadsoldier {
+    background: linear-gradient(rgba(248, 137, 137, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Team-photos/Players-background/Undeadsoldier.jpg) center center / cover no-repeat;
+}
+.jacob {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Team-photos/Players-background/Jacob.jpg) center center / cover no-repeat;    
+}
+
+.fight {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Team-photos/Players-background/fight.jpg) center center / cover no-repeat;    
+}
+
+.k-iraa {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(Team-photos/Players-background/Silvik.jpg) center center / cover no-repeat;    
+}
+
+body {
+ background: #e0e0e0; /* slightly darker gray */
+}
+
+

@@ -1,56 +1,54 @@
-
 footer {
-    background-color: #C9C9C9;
-    color: black;
-    padding: 1rem ;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #c9c9c9;
+  color: black;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
 }
 h3 {
-    font-family: 'Kavoon', cursive;
-    margin-bottom: 0.5rem;
+  font-family: "Kavoon", cursive;
+  margin-bottom: 0.5rem;
 }
 .footer-bottom {
-    text-align: center;
+  text-align: center;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer-content {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 .footer-section ul {
-    list-style: none;
+  list-style: none;
 }
 
 .footer-section a {
-    text-decoration: none;
-    color: black;
-    align-items: center;
-
+  text-decoration: none;
+  color: black;
+  align-items: center;
 }
 
 .footer-section a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .social-list li img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .social-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem 2rem ;        
-  max-width: 350px;     
+  gap: 1rem 2rem;
+  max-width: 350px;
 }
 
 .social-list li a {
@@ -61,20 +59,21 @@ h3 {
 }
 
 .footer-logo {
-    align-self: center;
-    height: 100px;
+  align-self: center;
+  height: 100px;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
 main {
-  flex: 1; 
+  flex: 1;
 }
 
 .about li {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }

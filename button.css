@@ -31,7 +31,7 @@
 }
 
 .card-front {
-  font-family:'Kavoon', cursive ;
+  font-family: "Kavoon", cursive;
   font-size: 2rem;
   background: black;
   color: white;
@@ -39,40 +39,29 @@
 }
 
 .card-back {
-  font-family: 'Kavoon', cursive;
+  font-family: "Kavoon", cursive;
   font-size: 2rem;
   background: #d4d3d3;
   color: black;
   transform: rotateY(180deg);
 }
 
-
-
-
-
-
-
-
-
-
-
 .custom-button {
-    background-color: black;
-    transition: all .5s ease;
-    color: #fff;
-    border: 3px solid white;
-    font-family:'Kavoon', cursive ;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 1;
-    font-size: 17px;
-    background-color : transparent;
-    padding: 10px;
-    outline: none;
-    border-radius: 4px;
+  background-color: black;
+  transition: all 0.5s ease;
+  color: #fff;
+  border: 3px solid white;
+  font-family: "Kavoon", cursive;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
 }
 .custom-button:hover {
-    color: #000000;
-    background-color: #fff;
+  color: #000000;
+  background-color: #fff;
 }
-

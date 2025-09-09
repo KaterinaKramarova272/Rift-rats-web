@@ -5,32 +5,32 @@
 }
 
 header {
-  font-family: 'Kavoon', cursive;
-  background-color:white;
+  font-family: "Kavoon", cursive;
+  background-color: white;
   color: black;
   padding: 1rem 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .left-section {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .RFT_logo {
-    height: 50px;
-    align-self: center;
+  height: 50px;
+  align-self: center;
 }
 
 .discord {
-    height: 40px;
+  height: 40px;
 }
 
 .left-nav ul,
@@ -53,8 +53,8 @@ header {
 }
 
 h1 {
-    text-align: center;
-    font-family:'Kavoon', cursive;
-    font-size: 5rem;
-    margin: 2rem;
+  text-align: center;
+  font-family: "Kavoon", cursive;
+  font-size: 5rem;
+  margin: 2rem;
 }
